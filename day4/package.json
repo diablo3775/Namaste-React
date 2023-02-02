@@ -1,0 +1,33 @@
+{
+  "name": "day4",
+  "version": "1.0.0",
+  "description": "day 4 assignment",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/diablo3775/Namaste-React.git"
+  },
+  "keywords": [
+    "Anil"
+  ],
+  "author": "Anil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diablo3775/Namaste-React/issues"
+  },
+  "homepage": "https://github.com/diablo3775/Namaste-React#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
