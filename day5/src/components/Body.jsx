@@ -8,12 +8,9 @@ const Body = () => {
   
   function filterData(searchText, restaurants) {
     const filterData = restaurants.filter((restaurant) => restaurant.data.name.toLowerCase().includes(searchText));
-    console.log(filterData)
     return filterData;
   }
   
-  filterData("Udipi's Upahar", restaurants)
-
     return (
       <>
       <div className='search-container'>
